@@ -3,7 +3,7 @@
   "@id": "http://127.0.0.1:9000/KelmscottManifest.json",
   "@type": "sc:Manifest",
   "label": "The works of Geoffrey Chaucer, now newly imprinted",
-  "description": "Title page and 1st text page within decorative borders; ornamental initials and marginal decorations; sidenotes in red.<br><br>Text in double columns; printed in Chaucer type; with the headings to the longer poems in Troy type; the whole was printed on Batchelor handmade paper watermarked with a fish.",
+  "description": "Title page and 1st text page within decorative borders; ornamental initials and marginal decorations; sidenotes in red.<br><br>Text in double columns; printed in Chaucer type; with the headings to the longer poems in Troy type; the whole was printed on Batchelor handmade paper watermarked with a fish and a fish.",
   "attribution": "Images provided for research and reference use only. Permission to publish, copy, or otherwise use these images must be obtained from Rare Books and Special Collections: http://rbsc.ubc.ca",
   "sequences": [
     {
