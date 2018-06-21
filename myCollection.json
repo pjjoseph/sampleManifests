@@ -1,0 +1,25 @@
+{
+  "@id": "http://127.0.0.1:9000/myCollection.json",
+  "@type": "sc:Collection",
+  "label": "My Collections",
+
+  "collections": [
+    {
+      "@id": "http://127.0.0.1:9000/myCollection.json",
+      "@type": "sc:Collection",
+      "label": "My Collections",
+      "members":[
+        {
+        "@id": "http://127.0.0.1:9000/myManifest.json",
+        "@type": "sc:Manifest",
+        "label": "Logging Photos"
+      },
+      {
+        "@id": "http://iiif.library.ubc.ca/presentation/cdm.specialp.1-0366915/manifest",
+        "@type": "sc:Manifest",
+        "label": "Chaucer Books"
+      }
+     ]
+    }
+  ]
+}

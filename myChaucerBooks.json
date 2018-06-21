@@ -1,0 +1,22 @@
+{
+  "@id": "http://127.0.0.1:9000/chaucerbooks/collection",
+  "@type": "sc:Collection",
+  "label": "ChaucerBooks",
+  "manifests": [
+    {
+      "@id": "http://iiif.library.ubc.ca/presentation/cdm.specialp.1-0366915/manifest",
+      "@type": "sc:Manifest",
+      "label": "UBC"
+    },
+    {
+      "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4628556/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Wales"
+    },
+    {
+      "@id": "http://iiif.archivelab.org/iiif/completeworksofg00chauuoft/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Internet Archive"
+    }
+  ]
+}

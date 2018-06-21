@@ -1,0 +1,91 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://example.com/my-manifest",
+  "@type": "sc:Manifest",
+  "label": "This is the title",
+  "description": "This is a short description",
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "sequences": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://example.com/my-sequence",
+      "@type": "sc:Sequence",
+      "viewingDirection": "left-to-right",
+      "canvases": [
+        {
+          "@id": "https://example.com/my-canvas/1",
+          "@type": "sc:Canvas",
+          "label": "canvas number 1",
+          "height": 5000,
+          "width": 3573,
+          "images": [
+            {
+              "@id": "https://example.com/annotation-1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://example.com/my-canvas/1",
+              "resource": {
+                "@id": "https://example.com/res/1",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5000,
+                "width": 3573,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:8182/iiif/2/1.0349222.jpg",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              }
+            },
+            {
+              "@id": "https://example.com/annotation-2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://example.com/my-canvas/2",
+              "resource": {
+                "@id": "https://example.com/res/2",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5000,
+                "width": 3573,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:8182/iiif/2/1.0349259.jpg",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://example.com/my-canvas/2",
+          "@type": "sc:Canvas",
+          "label": "canvas number 2",
+          "viewingHint": "facing-pages",
+          "height": 5000,
+          "width": 3573,
+          "images": [
+            {
+              "@id": "https://example.com/annotation-2-1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://example.com/my-canvas/1",
+              "resource": {
+                "@id": "https://example.com/res/1",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5000,
+                "width": 3573,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:8182/iiif/2/1.0349259.jpg",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

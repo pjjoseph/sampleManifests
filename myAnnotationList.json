@@ -1,0 +1,21 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:9000/myAnnotationList.json",
+  "@type": "sc:AnnotationList",
+
+  "resources": [
+    {
+      "@id": "",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource":{
+        "@id": "",
+        "@type": "dctypes:Text",
+        "format": "application/tei+xml",
+        "chars": "text text",
+        "language": "eng"
+      },
+      "on": "http://localhost:9000/myManifest.json"
+    }
+  ]
+}

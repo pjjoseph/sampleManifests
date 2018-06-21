@@ -1,0 +1,359 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://31d5c639-1d9b-4666-b8ca-53228aa4d2cc",
+	"@type": "sc:Manifest",
+	"label": "MacMillan Bloedel Logging Photos",
+	"metadata": [],
+	"description": "The records of MacMillan Bloedel Ltd. (\"MacBlo\") are part of UBC Library's Rare Books and Special Collections. During its existence MacBlo was one of the largest forest products companies in the world. Images from the collection document the history of MacMillan Bloedel and its predecessor companies (Powell River Company, Bloedel, Stewart & Welch, H.R. MacMillan Export Company, Ltd., MacMillan & Bloedel, and MacMillan, Bloedel and Powell River Company).",
+	"attribution": "Images are provided for research and reference use only. Permission to publish, copy or otherwise use these images must be obtained from UBC Library Rare Books and Special Collections: http://rbsc.library.ubc.ca\t",
+	"sequences": [
+		{
+			"@id": "http://f3cf2da2-729a-4683-8060-d4d647a1f872",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://51b489fd-a9a6-47f0-a7c6-5e8330e234c0",
+					"@type": "sc:Canvas",
+					"label": "Diesel tug \"Joe Drinkwater\" on Great Central Lake, B.C., 1939",
+					"height": 3869,
+					"width": 5331,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://53988046-b692-42e3-af91-7fa76f72e9f6",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/1.0349222.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/1.0349222.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3869,
+								"width": 5331
+							},
+							"on": "http://51b489fd-a9a6-47f0-a7c6-5e8330e234c0"
+						}
+					]
+				},
+				{
+					"@id": "http://f189f722-75db-40d3-8e24-e79564c4b0e9",
+					"@type": "sc:Canvas",
+					"label": "High rigger chopping top off tree, 1942",
+					"height": 5759,
+					"width": 3504,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://b8960b5a-f86f-4f44-97c3-0c61a034d1ef",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/1.0349257.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/1.0349257.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 5759,
+								"width": 3504
+							},
+							"on": "http://f189f722-75db-40d3-8e24-e79564c4b0e9"
+						}
+					]
+				},
+				{
+					"@id": "http://c45b990d-e270-4267-bbb4-75253157ed6e",
+					"@type": "sc:Canvas",
+					"label": "Cold deck yarder being loaded on a car from steep side of hill, 1942",
+					"height": 3437,
+					"width": 5633,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://13ef52a1-9b14-476d-a347-15035b215483",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/1.0349259.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/1.0349259.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3437,
+								"width": 5633
+							},
+							"on": "http://c45b990d-e270-4267-bbb4-75253157ed6e"
+						}
+					]
+				},
+				{
+					"@id": "http://6125c8c2-329b-4237-829d-0179fa282d27",
+					"@type": "sc:Canvas",
+					"label": "View of high rigger, 1959",
+					"height": 4072,
+					"width": 3927,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://5484137f-63d1-4159-a2f4-79c984776b77",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/1.0349262.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/1.0349262.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 4072,
+								"width": 3927
+							},
+							"on": "http://6125c8c2-329b-4237-829d-0179fa282d27"
+						}
+					]
+				},
+				{
+					"@id": "http://dc8798bb-0d1c-4897-b155-e01a53009419",
+					"@type": "sc:Canvas",
+					"label": "Boommen at the booming grounds, 1957",
+					"height": 4527,
+					"width": 5670,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://1f7691ce-b6f7-4041-b5df-817f87758642",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/1.0349334.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/1.0349334.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 4527,
+								"width": 5670
+							},
+							"on": "http://dc8798bb-0d1c-4897-b155-e01a53009419"
+						}
+					]
+				}
+			]
+		}
+	],
+	"structures": []
+}

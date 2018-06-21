@@ -1,0 +1,228 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://127.0.0.1:9000/DarwinManifest.json",
+  "@type": "sc:Manifest",
+  "label": "[Letter, Charles R. Darwin to John Burdon-Sanderson, October 9, 1874]",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "paged",
+  "thumbnail": "https://iiif.library.ubc.ca/image/cdm.darwin.1-0000101.0000/full/80,100/0/default.jpg",
+  "attribution": "Images provided for research and reference use only. Permission to publish, copy or otherwise use these images must be obtained from Rare Books and Special Collections: http://rbsc.library.ubc.ca/",
+  "description": "Charles Darwin, \"Down\" to John Burdon-Sanderson. Wants to know if fibrin, areolar tissue, gelatin and other substances are allied in any way because they affect Drosera in a similar  way. [Reply follows] Burdon-Sanderson suggests that the similarities may be due to the water solubility of certain substances. A.L.S. 1 p.",
+  "sequences": [
+    {
+      "@id": "https://iiif.library.ubc.ca/presentation/cdm.darwin.1-0000101/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default",
+      "viewingDirection": "left-to-right",
+      "viewingHint": "paged",
+      "canvases": [
+        {
+          "@id": "https://iiif.library.ubc.ca/presentation/cdm.darwin.1-0000101/canvas/p0000",
+          "@type": "sc:Canvas",
+          "label": "[Letter, Charles R. Darwin to John Burdon-Sanderson, October 9, 1874]",
+          "height": 4840,
+          "width": 2994,
+          "images": [
+            {
+              "@id": "https://iiif.library.ubc.ca/presentation/cdm.darwin.1-0000101/annotation/p0000",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.ubc.ca/image/cdm.darwin.1-0000101.0000",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4840,
+                "width": 2994,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.ubc.ca/image/cdm.darwin.1-0000101.0000",
+                  "@profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 4840,
+                  "width": 2994,
+                  "scaleFactors": [
+                    1,
+                    2,
+                    4,
+                    8,
+                    16,
+                    32,
+                    64,
+                    128,
+                    256,
+                    512,
+                    1024
+                  ]
+                }
+              },
+              "on": "https://iiif.library.ubc.ca/cdm.darwin.1-0000101/canvas/p0000"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.library.ubc.ca/presentation/cdm.darwin.1-0000101/canvas/p0001",
+          "@type": "sc:Canvas",
+          "label": "[Letter, Charles R. Darwin to John Burdon-Sanderson, October 9, 1874]",
+          "height": 4840,
+          "width": 2995,
+          "images": [
+            {
+              "@id": "https://iiif.library.ubc.ca/presentation/cdm.darwin.1-0000101/annotation/p0001",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.ubc.ca/image/cdm.darwin.1-0000101.0001",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4840,
+                "width": 2995,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.ubc.ca/image/cdm.darwin.1-0000101.0001",
+                  "@profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 4840,
+                  "width": 2995,
+                  "scaleFactors": [
+                    1,
+                    2,
+                    4,
+                    8,
+                    16,
+                    32,
+                    64,
+                    128,
+                    256,
+                    512,
+                    1024
+                  ]
+                }
+              },
+              "on": "https://iiif.library.ubc.ca/cdm.darwin.1-0000101/canvas/p0001"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.library.ubc.ca/presentation/cdm.darwin.1-0000101/canvas/p0002",
+          "@type": "sc:Canvas",
+          "label": "[Letter, Charles R. Darwin to John Burdon-Sanderson, October 9, 1874]",
+          "height": 4840,
+          "width": 2994,
+          "images": [
+            {
+              "@id": "https://iiif.library.ubc.ca/presentation/cdm.darwin.1-0000101/annotation/p0002",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.ubc.ca/image/cdm.darwin.1-0000101.0002",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4840,
+                "width": 2994,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.ubc.ca/image/cdm.darwin.1-0000101.0002",
+                  "@profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 4840,
+                  "width": 2994,
+                  "scaleFactors": [
+                    1,
+                    2,
+                    4,
+                    8,
+                    16,
+                    32,
+                    64,
+                    128,
+                    256,
+                    512,
+                    1024
+                  ]
+                }
+              },
+              "on": "https://iiif.library.ubc.ca/cdm.darwin.1-0000101/canvas/p0002"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.library.ubc.ca/presentation/cdm.darwin.1-0000101/canvas/p0003",
+          "@type": "sc:Canvas",
+          "label": "[Letter, Charles R. Darwin to John Burdon-Sanderson, October 9, 1874]",
+          "height": 4840,
+          "width": 2995,
+          "images": [
+            {
+              "@id": "https://iiif.library.ubc.ca/presentation/cdm.darwin.1-0000101/annotation/p0003",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.ubc.ca/image/cdm.darwin.1-0000101.0003",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4840,
+                "width": 2995,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.ubc.ca/image/cdm.darwin.1-0000101.0003",
+                  "@profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 4840,
+                  "width": 2995,
+                  "scaleFactors": [
+                    1,
+                    2,
+                    4,
+                    8,
+                    16,
+                    32,
+                    64,
+                    128,
+                    256,
+                    512,
+                    1024
+                  ]
+                }
+              },
+              "on": "https://iiif.library.ubc.ca/cdm.darwin.1-0000101/canvas/p0003"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "http://127.0.0.1:9000/DarwinManifest/range/r-0",
+      "@type": "sc:Range",
+      "label": "Test1",
+      "viewingHint": "paged",
+      "canvases": [
+        "https://iiif.library.ubc.ca/presentation/cdm.darwin.1-0000101/canvas/p0000"
+      ]
+    },
+    {
+      "@id": "http://127.0.0.1:9000/DarwinManifest/range/r-1",
+      "@type": "sc:Range",
+      "label": "Test2",
+      "viewingHint": "paged",
+      "canvases": [
+        "https://iiif.library.ubc.ca/presentation/cdm.darwin.1-0000101/canvas/p0001"
+      ]
+    },
+    {
+      "@id": "http://127.0.0.1:9000/DarwinManifest/range/r-2",
+      "@type": "sc:Range",
+      "label": "Test2",
+      "viewingHint": "paged",
+      "canvases": [
+        "https://iiif.library.ubc.ca/presentation/cdm.darwin.1-0000101/canvas/p0002"
+      ]
+    },
+    {
+      "@id": "http://127.0.0.1:9000/DarwinManifest/range/r-3",
+      "@type": "sc:Range",
+      "label": "Test3",
+      "viewingHint": "paged",
+      "canvases": [
+        "https://iiif.library.ubc.ca/presentation/cdm.darwin.1-0000101/canvas/p0003"
+      ]
+    }
+  ]
+}

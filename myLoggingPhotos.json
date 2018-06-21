@@ -1,0 +1,12 @@
+{
+  "@id": "http://127.0.0.1:9000/loggingphotos/collection",
+  "@type": "sc:Collection",
+  "label": "Logging Photos",
+  "manifests": [
+    {
+      "@id": "http://127.0.0.1:9000/myManifest.json",
+      "@type": "sc:Manifest",
+      "label": "Logging Photos"
+    }
+  ]
+}
