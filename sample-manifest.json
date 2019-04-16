@@ -1,91 +1,241 @@
 {
-  "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://example.com/my-manifest",
-  "@type": "sc:Manifest",
-  "label": "This is the title",
-  "description": "This is a short description",
-  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "sequences": [
-    {
-      "@context": "http://iiif.io/api/presentation/2/context.json",
-      "@id": "https://example.com/my-sequence",
-      "@type": "sc:Sequence",
-      "viewingDirection": "left-to-right",
-      "canvases": [
-        {
-          "@id": "https://example.com/my-canvas/1",
-          "@type": "sc:Canvas",
-          "label": "canvas number 1",
-          "height": 5000,
-          "width": 3573,
-          "images": [
-            {
-              "@id": "https://example.com/annotation-1",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "on": "https://example.com/my-canvas/1",
-              "resource": {
-                "@id": "https://example.com/res/1",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "height": 5000,
-                "width": 3573,
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://127.0.0.1:8182/iiif/2/1.0349222.jpg",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              }
-            },
-            {
-              "@id": "https://example.com/annotation-2",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "on": "https://example.com/my-canvas/2",
-              "resource": {
-                "@id": "https://example.com/res/2",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "height": 5000,
-                "width": 3573,
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://127.0.0.1:8182/iiif/2/1.0349259.jpg",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              }
-            }
-          ]
+  "label": "[Book of hours]",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "paged",
+  "sequences": [{
+    "@id": "https:\/\/iiif.library.ubc.ca\/presentation\/cdm.manuscripts.1-0224790\/sequence\/normal",
+    "@type": "sc:Sequence",
+    "label": "Default",
+    "viewingDirection": "left-to-right",
+    "viewingHint": "paged",
+    "canvases": [{
+      "@id": "https:\/\/iiif.library.ubc.ca\/presentation\/cdm.manuscripts.1-0224790\/canvas\/p0000",
+      "@type": "sc:Canvas",
+      "label": "BX2080 A2 1430_Page_0002_R",
+      "height": 4597,
+      "width": 3414,
+      "images": [{
+        "@id": "https:\/\/iiif.library.ubc.ca\/presentation\/cdm.manuscripts.1-0224790\/annotation\/p0000",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@id": "https:\/\/iiif.library.ubc.ca\/image\/cdm.manuscripts.1-0224790.0000",
+          "@type": "dctypes:Image",
+          "format": "image\/jpeg",
+          "height": 4597,
+          "width": 3414,
+          "service": {
+            "@context": "http:\/\/iiif.io\/api\/image\/2\/context.json",
+            "@id": "https:\/\/iiif.library.ubc.ca\/image\/cdm.manuscripts.1-0224790.0000",
+            "@profile": "http:\/\/iiif.io\/api\/image\/2\/level2.json",
+            "height": 4597,
+            "width": 3414,
+            "scaleFactors": [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
+          }
         },
-        {
-          "@id": "https://example.com/my-canvas/2",
-          "@type": "sc:Canvas",
-          "label": "canvas number 2",
-          "viewingHint": "facing-pages",
-          "height": 5000,
-          "width": 3573,
-          "images": [
-            {
-              "@id": "https://example.com/annotation-2-1",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "on": "https://example.com/my-canvas/1",
-              "resource": {
-                "@id": "https://example.com/res/1",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "height": 5000,
-                "width": 3573,
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://127.0.0.1:8182/iiif/2/1.0349259.jpg",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              }
-            }
-          ]
-        }
-      ]
-    }
-  ]
+        "on": "https:\/\/iiif.library.ubc.ca\/cdm.manuscripts.1-0224790\/canvas\/p0000"
+      }]
+    },
+{
+      "@id": "https:\/\/iiif.library.ubc.ca\/presentation\/cdm.manuscripts.1-0224790\/canvas\/p0036",
+      "@type": "sc:Canvas",
+      "label": "BX2080 A2 1430_Page_0038_R",
+      "height": 4597,
+      "width": 3414,
+      "images": [{
+        "@id": "https:\/\/iiif.library.ubc.ca\/presentation\/cdm.manuscripts.1-0224790\/annotation\/p0036",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@id": "https:\/\/iiif.library.ubc.ca\/image\/cdm.manuscripts.1-0224790.0036",
+          "@type": "dctypes:Image",
+          "format": "image\/jpeg",
+          "height": 4597,
+          "width": 3414,
+          "service": {
+            "@context": "http:\/\/iiif.io\/api\/image\/2\/context.json",
+            "@id": "https:\/\/iiif.library.ubc.ca\/image\/cdm.manuscripts.1-0224790.0036",
+            "@profile": "http:\/\/iiif.io\/api\/image\/2\/level2.json",
+            "height": 4597,
+            "width": 3414,
+            "scaleFactors": [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
+          }
+        },
+        "on": "https:\/\/iiif.library.ubc.ca\/cdm.manuscripts.1-0224790\/canvas\/p0036"
+      }]
+    },
+
+
+
+
+
+
+    {
+      "@id": "https:\/\/iiif.library.ubc.ca\/presentation\/cdm.manuscripts.1-0224790\/canvas\/p0074",
+      "@type": "sc:Canvas",
+      "label": "BX2080 A2 1430_Page_0076_R",
+      "height": 4597,
+      "width": 3414,
+      "images": [{
+        "@id": "https:\/\/iiif.library.ubc.ca\/presentation\/cdm.manuscripts.1-0224790\/annotation\/p0074",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@id": "https:\/\/iiif.library.ubc.ca\/image\/cdm.manuscripts.1-0224790.0074",
+          "@type": "dctypes:Image",
+          "format": "image\/jpeg",
+          "height": 4597,
+          "width": 3414,
+          "service": {
+            "@context": "http:\/\/iiif.io\/api\/image\/2\/context.json",
+            "@id": "https:\/\/iiif.library.ubc.ca\/image\/cdm.manuscripts.1-0224790.0074",
+            "@profile": "http:\/\/iiif.io\/api\/image\/2\/level2.json",
+            "height": 4597,
+            "width": 3414,
+            "scaleFactors": [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
+          }
+        },
+        "on": "https:\/\/iiif.library.ubc.ca\/cdm.manuscripts.1-0224790\/canvas\/p0074"
+      }]
+    }, {
+      "@id": "https:\/\/iiif.library.ubc.ca\/presentation\/cdm.manuscripts.1-0224790\/canvas\/p0076",
+      "@type": "sc:Canvas",
+      "label": "BX2080 A2 1430_Page_0078_R",
+      "height": 4597,
+      "width": 3414,
+      "images": [{
+        "@id": "https:\/\/iiif.library.ubc.ca\/presentation\/cdm.manuscripts.1-0224790\/annotation\/p0076",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@id": "https:\/\/iiif.library.ubc.ca\/image\/cdm.manuscripts.1-0224790.0076",
+          "@type": "dctypes:Image",
+          "format": "image\/jpeg",
+          "height": 4597,
+          "width": 3414,
+          "service": {
+            "@context": "http:\/\/iiif.io\/api\/image\/2\/context.json",
+            "@id": "https:\/\/iiif.library.ubc.ca\/image\/cdm.manuscripts.1-0224790.0076",
+            "@profile": "http:\/\/iiif.io\/api\/image\/2\/level2.json",
+            "height": 4597,
+            "width": 3414,
+            "scaleFactors": [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
+          }
+        },
+        "on": "https:\/\/iiif.library.ubc.ca\/cdm.manuscripts.1-0224790\/canvas\/p0076"
+      }]
+    }, {
+      "@id": "https:\/\/iiif.library.ubc.ca\/presentation\/cdm.manuscripts.1-0224790\/canvas\/p0109",
+      "@type": "sc:Canvas",
+      "label": "BX2080 A2 1430_Page_0111_L",
+      "height": 4597,
+      "width": 3414,
+      "images": [{
+        "@id": "https:\/\/iiif.library.ubc.ca\/presentation\/cdm.manuscripts.1-0224790\/annotation\/p0109",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@id": "https:\/\/iiif.library.ubc.ca\/image\/cdm.manuscripts.1-0224790.0109",
+          "@type": "dctypes:Image",
+          "format": "image\/jpeg",
+          "height": 4597,
+          "width": 3414,
+          "service": {
+            "@context": "http:\/\/iiif.io\/api\/image\/2\/context.json",
+            "@id": "https:\/\/iiif.library.ubc.ca\/image\/cdm.manuscripts.1-0224790.0109",
+            "@profile": "http:\/\/iiif.io\/api\/image\/2\/level2.json",
+            "height": 4597,
+            "width": 3414,
+            "scaleFactors": [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
+          }
+        },
+        "on": "https:\/\/iiif.library.ubc.ca\/cdm.manuscripts.1-0224790\/canvas\/p0109"
+      }]
+    }, {
+      "@id": "https:\/\/iiif.library.ubc.ca\/presentation\/cdm.manuscripts.1-0224790\/canvas\/p0139",
+      "@type": "sc:Canvas",
+      "label": "BX2080 A2 1430_Page_0141_L",
+      "height": 4597,
+      "width": 3414,
+      "images": [{
+        "@id": "https:\/\/iiif.library.ubc.ca\/presentation\/cdm.manuscripts.1-0224790\/annotation\/p0139",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@id": "https:\/\/iiif.library.ubc.ca\/image\/cdm.manuscripts.1-0224790.0139",
+          "@type": "dctypes:Image",
+          "format": "image\/jpeg",
+          "height": 4597,
+          "width": 3414,
+          "service": {
+            "@context": "http:\/\/iiif.io\/api\/image\/2\/context.json",
+            "@id": "https:\/\/iiif.library.ubc.ca\/image\/cdm.manuscripts.1-0224790.0139",
+            "@profile": "http:\/\/iiif.io\/api\/image\/2\/level2.json",
+            "height": 4597,
+            "width": 3414,
+            "scaleFactors": [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
+          }
+        },
+        "on": "https:\/\/iiif.library.ubc.ca\/cdm.manuscripts.1-0224790\/canvas\/p0139"
+      }]
+    }, {
+      "@id": "https:\/\/iiif.library.ubc.ca\/presentation\/cdm.manuscripts.1-0224790\/canvas\/p0205",
+      "@type": "sc:Canvas",
+      "label": "BX2080 A2 1430_Page_0207_L",
+      "height": 4597,
+      "width": 3414,
+      "images": [{
+        "@id": "https:\/\/iiif.library.ubc.ca\/presentation\/cdm.manuscripts.1-0224790\/annotation\/p0205",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@id": "https:\/\/iiif.library.ubc.ca\/image\/cdm.manuscripts.1-0224790.0205",
+          "@type": "dctypes:Image",
+          "format": "image\/jpeg",
+          "height": 4597,
+          "width": 3414,
+          "service": {
+            "@context": "http:\/\/iiif.io\/api\/image\/2\/context.json",
+            "@id": "https:\/\/iiif.library.ubc.ca\/image\/cdm.manuscripts.1-0224790.0205",
+            "@profile": "http:\/\/iiif.io\/api\/image\/2\/level2.json",
+            "height": 4597,
+            "width": 3414,
+            "scaleFactors": [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
+          }
+        },
+        "on": "https:\/\/iiif.library.ubc.ca\/cdm.manuscripts.1-0224790\/canvas\/p0205"
+      }]
+    }, {
+      "@id": "https:\/\/iiif.library.ubc.ca\/presentation\/cdm.manuscripts.1-0224790\/canvas\/p0223",
+      "@type": "sc:Canvas",
+      "label": "BX2080 A2 1430_Page_0225_L",
+      "height": 4597,
+      "width": 3414,
+      "images": [{
+        "@id": "https:\/\/iiif.library.ubc.ca\/presentation\/cdm.manuscripts.1-0224790\/annotation\/p0223",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@id": "https:\/\/iiif.library.ubc.ca\/image\/cdm.manuscripts.1-0224790.0223",
+          "@type": "dctypes:Image",
+          "format": "image\/jpeg",
+          "height": 4597,
+          "width": 3414,
+          "service": {
+            "@context": "http:\/\/iiif.io\/api\/image\/2\/context.json",
+            "@id": "https:\/\/iiif.library.ubc.ca\/image\/cdm.manuscripts.1-0224790.0223",
+            "@profile": "http:\/\/iiif.io\/api\/image\/2\/level2.json",
+            "height": 4597,
+            "width": 3414,
+            "scaleFactors": [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
+          }
+        },
+        "on": "https:\/\/iiif.library.ubc.ca\/cdm.manuscripts.1-0224790\/canvas\/p0223"
+      }]
+    }]
+  }],
+  "description": "4 large and 2 full-page miniatures with full borders, small illuminated initials and line-fillers. \u003Cbr\u003E\u003Cbr\u003E nineteenth century blind-stamped brown leather binding, with spine repaired and metal fittings added. \u003Cbr\u003E\u003Cbr\u003E\nText and illumination on both sides of leaves. Verso of last leaf blank. Leaves numbered in pencil by a previous owner, but two leaves missed, thus pencilled leaf numbering ends at 106 instead of 108.",
+  "@context": "http:\/\/iiif.io\/api\/presentation\/2\/context.json",
+  "@id": "https:\/\/oc2-iiif.library.ubc.ca\/presentation\/cdm.manuscripts.1-0224790\/manifest",
+  "@type": "sc:Manifest"
 }
